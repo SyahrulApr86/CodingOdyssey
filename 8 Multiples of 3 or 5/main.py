@@ -21,7 +21,7 @@ def solution(number):
         i += 5
     return _sum
 
-def solution2(number):
+def solution2(number): # --> this is very clever way
     a3 = (number-1)/3
     a5 = (number-1)/5
     a15 = (number-1)/15
