@@ -11,5 +11,5 @@ def reverse_seq(n):
 
 
 # def reverse_seq(n):
-#     return range(n, 0, -1) # --> range will return list
+#     return [x for x in range(n, 0, -1)] # --> range will return list in python 2.x
 
