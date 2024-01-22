@@ -3,7 +3,7 @@
 
 ## About This Repository
 
-Welcome to **CodingOdyssey**, a year-long journey of challenge and learning in the realm of programming. This repository is a collection of exercises, experiments, and solutions to various programming challenges that I've encountered over the course of a year. The purpose of this repository is to document my learning journey and to share knowledge with the community.
+Welcome to **CodingOdyssey**, a long journey of challenge and learning in the realm of programming. This repository is a collection of exercises, experiments, and solutions to various programming challenges that I've encountered over the course. The purpose of this repository is to document my learning journey and to share knowledge with the community.
 
 ## The Philosophy Behind 'CodingOdyssey'
 
