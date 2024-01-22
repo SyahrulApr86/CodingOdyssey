@@ -27,3 +27,4 @@ def grow(arr):
 #
 # def grow(arr):
 #     return reduce(mul, arr)
+
