@@ -8,12 +8,8 @@ Algoritma pertama menggunakan pendekatan iteratif untuk menghitung akar digital.
 2. **Iterasi dan Penjumlahan**: Setiap digit dijumlahkan bersama-sama.
 3. **Pengecekan dan Pengulangan**: Jika hasil penjumlahan lebih dari satu digit, proses diulangi dengan angka baru yang dihasilkan dari penjumlahan.
 4. **Pengembalian Hasil**: Proses berlanjut sampai didapatkan satu digit, yang kemudian dikembalikan sebagai hasil.
-
-## Algoritma 2: Metode Matematik
-
-Tentu, saya akan menjelaskan secara lebih rinci mengenai Algoritma 2, yang menggunakan pendekatan matematika untuk menghitung akar digital, dan mengapa pendekatan ini efektif.
-
-## Algoritma 2: Pendekatan Matematik (Modulo 9)
+5. 
+## Algoritma 2: Pendekatan Matematis (Modulo 9)
 
 ### Konsep Dasar:
 Algoritma ini berdasarkan pada sifat-sifat matematis dari angka dalam sistem bilangan basis 9. Dalam matematika, terdapat konsep yang menyatakan bahwa jumlah digit suatu angka memiliki hubungan langsung dengan sisa pembagiannya oleh 9.
