@@ -2,6 +2,7 @@
 
 import timeit
 
+
 def solution(number):
     if number < 0:
         return 0
@@ -21,11 +22,15 @@ def solution(number):
         i += 5
     return _sum
 
-def solution2(number): # --> this is very clever way
-    a3 = (number-1)/3
-    a5 = (number-1)/5
-    a15 = (number-1)/15
-    result = (a3*(a3+1)/2)*3 + (a5*(a5+1)/2)*5 - (a15*(a15+1)/2)*15
+
+def solution2(number):  # --> this is very clever way
+    if number < 0:
+        return 0
+
+    a3 = (number-1)//3
+    a5 = (number-1)//5
+    a15 = (number-1)//15
+    result = (a3*(a3+1)//2)*3 + (a5*(a5+1)//2)*5 - (a15*(a15+1)//2)*15
     return result
 
 # # Setting up the testing environment
