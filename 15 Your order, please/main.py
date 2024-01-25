@@ -12,3 +12,11 @@ def order(sentence):
                 res.append(word)
 
     return " ".join(res)
+
+# import re
+#
+# def order(sentence):
+#     if not sentence: return ""
+#     words = sentence.split(' ')
+#     words.sort(key=lambda word: int(re.search(r'\d+', word).group()))
+#     return " ".join(words)
