@@ -18,6 +18,7 @@ def displayPathtoPrincess(n, grid):
         'UP\n' * abs(drows) if drows < 0 else 'DOWN\n' * drows,
         'LEFT\n' * abs(dcols) if dcols < 0 else 'RIGHT\n' * dcols]))
 
+
 m = int(input())
 grid = []
 for i in range(0, m):
