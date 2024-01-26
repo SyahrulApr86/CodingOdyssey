@@ -30,6 +30,17 @@ class ParkingSystem(object):
 
         return False
 
+# class ParkingSystem:
+#
+#     def __init__(self, big, medium, small):
+#         self.capacity = {1: big, 2: medium, 3: small}
+#         self.current = {1: 0, 2: 0, 3: 0}
+#
+#     def addCar(self, carType):
+#         if self.current[carType] < self.capacity[carType]:
+#             self.current[carType] += 1
+#             return True
+#         return False
 
 
 
