@@ -14,10 +14,17 @@ def persistence(n):
     return op
 
 
-# def persistence(n):
-#     if n < 10: return 0
-#     mult = 1
-#     while (n > 0):
-#         mult = n % 10 * mult
-#         n = n // 10
-#     return persistence(mult) + 1
+def persistence_2(n):
+    if n < 10: return 0
+    mult = 1
+    while (n > 0):
+        mult = n % 10 * mult
+        n = n // 10
+    return persistence_2(mult) + 1
+
+import timeit
+n = 10000
+time_reduce = timeit.timeit('persistence(n)', globals=globals(), number=10000)
+time_loop = timeit.timeit('persistence_2(n)', globals=globals(), number=10000)
+
+print(time_reduce, time_loop)
