@@ -20,3 +20,16 @@ def score(dice):
 
 
 print(score([3, 3, 3, 3, 3]))
+
+from collections import defaultdict
+
+# def score(dice):
+#     count = defaultdict(int)
+#
+#     for point in dice:
+#         count[point] += 1
+#
+#     return (count[1] // 3 * 1000 + count[2] // 3 * 200 + count[3] // 3 * 300 + count[4] // 3 * 400 +
+#             count[5] // 3 * 500 + count[6] // 3 * 600 + count[1] % 3 * 100 + count[5] % 3 * 50)
+#
+# print(score([3, 3, 3, 3, 3]))
