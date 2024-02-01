@@ -81,7 +81,7 @@ def list_squared4(m, n):
 import timeit
 
 # Comparison setup
-m, n = 1, 100000 # lowering the value if you want faster testing
+m, n = 1, 100000  # lowering the value if you want faster testing
 number_of_runs = 100
 
 # Timing each function
